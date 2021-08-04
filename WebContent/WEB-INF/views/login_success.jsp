@@ -7,7 +7,7 @@
 <title>Log In Success</title>
 </head>
 <body>
-	<h1>Log In Success Page</h1>
+	<h1>Welcome ${email }</h1>
 
 </body>
 </html>
