@@ -5,10 +5,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Log in form</title>
+<style>
+	p {
+		color: red;
+		margin: 0;
+		padding: 0;
+	}
+</style>
 </head>
 <body>	
 	<fieldset>
 		<legend>Log In</legend>
+		<p>${message }</p>
 		<form action="login" method="post">
 			<div>
 				<label for="email">Email: </label>
